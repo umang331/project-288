@@ -30,32 +30,32 @@ while robot.step(timestep) != -1:
 
     if(key_pressed == 49):
         motorA_pos += 0.005
-    elif(key_pressed == 50):
+    if(key_pressed == 50):
         motorA_pos -= 0.005
         
-    elif(key_pressed == 51):
+    if(key_pressed == 51):
         motorB_pos += 0.005
-    elif(key_pressed == 52):
+    if(key_pressed == 52):
         motorB_pos -= 0.005
         
-    elif(key_pressed == 53):
+    if(key_pressed == 53):
         motorC_pos += 0.005
     elif(key_pressed == 54):
         motorC_pos -= 0.005
         
-    elif(key_pressed == 55):
+    if(key_pressed == 55):
         motorD_pos += 0.005
-    elif(key_pressed == 56):
+    if(key_pressed == 56):
         motorD_pos -= 0.005
         
-    elif(key_pressed == 57):
+    if(key_pressed == 57):
         motorE_pos += 0.005
-    elif(key_pressed == 48):
+    if(key_pressed == 48):
         motorE_pos -= 0.005
         
-    elif(key_pressed == 81):
+    if(key_pressed == 81):
         motorF_pos += 0.005
-    elif(key_pressed == 87):
+    if(key_pressed == 87):
         motorF_pos -= 0.005
         
         
